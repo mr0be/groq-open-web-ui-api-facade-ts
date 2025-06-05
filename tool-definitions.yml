@@ -1,30 +1,20 @@
 - type: function
   function:
-    name: getTemperature
-    description: Get the temperature for a given location
+    name: getDataBaseSchema
+    description: Get Schema definition for all tables in the database
     parameters:
       type: object
-      properties:
-        location:
-          type: string
-          description: The name of the city
-        unit:
-          type: string
-          description: Temperature unit to return
-          enum: ["celsius", "fahrenheit"]
-      required:
-        - location
-        - unit
-
+      properties: {}
+        
 - type: function
   function:
-    name: getWeatherCondition
-    description: Get the weather condition for a given location
+    name: query
+    description: execute the sql query
     parameters:
       type: object
       properties:
-        location:
+        sql:
           type: string
-          description: The name of the city
+          description: the sql query
       required:
-        - location
+        - sql
