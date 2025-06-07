@@ -1,6 +1,6 @@
 # groq-open-web-ui-api-facade-ts
 
-A TypeScript-based API facade that connects a custom UI (e.g., Open WebUI) with the [Groq API](https://groq.com/). It supports structured tool calls, database queries, and smooth communication with LLMs such as LLaMA3 via a simple REST API.
+A TypeScript-based API facade that connects a custom UI (e.g., Open WebUI) with the [Groq API](https://groq.com/). It supports structured tool calls, database queries, and smooth communication with LLMs such as LLaMA3 via a simple REST API. (example implementation)
 
 ---
 
