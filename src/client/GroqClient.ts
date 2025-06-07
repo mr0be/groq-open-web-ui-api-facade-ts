@@ -1,7 +1,5 @@
 import { Groq } from "groq-sdk";
-import { CalculateTool } from "../tools/CalculateTool";
 import { ToolHandler } from "../tools/ToolHandler";
-import { evaluateExpression } from "../utils/evalute";
 
 export class GroqClient {
 
